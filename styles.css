@@ -1,0 +1,103 @@
+.homepage{
+    background-image: url("image/back-img-1.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.n-logo>img{
+    max-width: 60px;
+}
+
+.n-con{
+    display: flex;
+    padding-top: 5px;
+    align-items: center;
+}
+.n-drop{
+    margin-left: auto;
+    margin-right: 10px;
+}
+.selectpicker{
+    background-color: transparent;
+}
+.n-button{
+    border-radius: 12px;
+    padding:7px;
+    margin-right: 20px;
+}
+.n-button > span{
+    padding: 10px;
+}
+.home-h1{
+    color: white;
+    max-width: 800px;
+    text-align: center;
+    margin: 50px auto;
+}
+.h-buysell{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.h-buysell >div > button{
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+}
+
+
+
+.second{
+    padding: 30px 10px;
+    background-color: rgba(244,247,249,1);
+}
+.s-first{
+    padding-bottom: 20px;
+}
+.s-l-i{
+    margin-bottom: 15px;
+    background-color: #e5F3FF;
+}
+.s-buy{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.s-list{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.s-list-img{
+    max-width: 200px;
+}
+.i-button{
+    margin-top: 10px;
+    background: transparent;
+}
+
+@media (max-width:500px){
+    .second{
+        text-align: center;
+    }
+    .s-buy{
+        display: block;
+    }
+    .s-list{
+        display: block;
+    }
+    .s-l-i{
+        display: flex;
+        gap: 20px;
+        margin: 10px;
+    }
+}
+
+@media (max-width:850px) {
+    .s-list-img{
+        max-width: 100px;
+    }
+}
